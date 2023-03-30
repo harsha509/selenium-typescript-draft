@@ -1,0 +1,27 @@
+{
+    "name": "framework",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "lint": "eslint \"./**\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/tmp": "^0.2.3",
+        "jszip": "^3.10.1"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "eslint": "^8.22.0",
+        "eslint-config-standard-with-typescript": "^22.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.4",
+        "eslint-plugin-promise": "^6.0.0",
+        "typescript": "^4.9.5"
+    }
+}
